@@ -1,0 +1,6 @@
+let TRUE := \x.\y.x
+let FALSE := \x.\y.y
+let AND := \p.\q.((p q) p)
+
+
+a <- AND TRUE FALSE
